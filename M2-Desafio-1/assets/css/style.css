@@ -1,0 +1,149 @@
+.body{
+   
+    width:auto;
+
+}
+
+.container{
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    width: 100%;
+   
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.menu {
+  
+    display: flex;
+    
+    flex-direction: column;
+    flex-basis: 25%;
+    background-color:#fff ;
+    
+    /*flex-basis: 50%;*/
+  
+}
+
+
+.User {
+    display:flex;
+    
+    flex-direction: row;
+    
+   
+    border-color:#E8EBE4;
+    border-style: solid;
+    border-width: 1px;
+    flex-wrap:nowrap;
+}
+.CurrentUser {
+    display:flex;
+    
+    flex-direction: row;
+  
+    gap: 10px;
+    padding: 10px;
+    
+    border-color: rgb(201, 198, 198);
+   
+}
+
+.Info {
+    display:flex;
+    
+    flex-direction: column;
+       
+    align-content: center;
+    justify-content:left;
+    
+    
+}
+.UserIcon{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 10px;
+    font-size: 2.5rem;
+    
+}
+.New-chat{
+    display:flex;
+    flex-direction: row;
+    height: 7rem;
+    width: 21rem;
+    
+    margin: 0px;
+    border-color:#E8EBE4;
+    border-style: solid;
+    border-width: 1px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.ChatButton{
+    height: 2.5rem;
+    width: 10rem;
+    display: flex;
+    flex-direction: row;
+    background-color: #A491D2;
+    color:#fff;
+    align-items: center;
+    justify-content: center;
+    
+    border-style: none;
+    
+}
+ .ChatButton:hover{
+    background-color: #CDC3E6;
+ }
+.ChatButton:focus{
+    background-color: #BEC1BB;   
+}
+
+
+.Principal{
+    
+    display: flex;
+    height: 100lvh;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    text-align: center;
+    flex-basis: 70%;
+    
+
+}
+.img-Principal {
+    display: flex;
+    align-self: center;
+    width: 10em;
+    height:auto;
+    border-radius: 5%;
+
+}
+.Foto-Perfil{
+    display: flex;
+    border-radius: 50%;
+    width: 20%;
+    align-items: center;
+}
+
+
+
+footer {
+    background-color: #1E1A13; 
+    color: #fff; 
+    padding: 20px 0; 
+    text-align: center; 
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
